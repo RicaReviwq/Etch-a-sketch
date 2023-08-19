@@ -6,7 +6,8 @@ body{
 
 
 .cuadricula{ 
-    width: 450px;
-    height: 550px;
+    width: 616px;
     border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
