@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cuadricula{ 
+    width: 450px;
+    height: 550px;
+    border: 2px solid black;
+}
