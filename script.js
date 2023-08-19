@@ -171,3 +171,18 @@ cuadrado16.addEventListener('mouseover', ()=>{
     cuadrado16.style.background = "yellow";
 });
 
+
+//BOTON
+
+const boton = document.getElementById("agregar");
+
+boton.addEventListener('click', ()=>{
+    cuadros =Number(prompt("¿De cuantos cuadrados quieres que sea?, El limite es 100"));
+
+    const cuadrado17 = document.createElement('div');
+    cuadrado17.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado17);
+
+
+
+});
