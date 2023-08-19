@@ -174,14 +174,75 @@ cuadrado16.addEventListener('mouseover', ()=>{
 
 //BOTON
 
-const boton = document.getElementById("agregar");
+const boton = document.getElementById("agregar1");
 
 boton.addEventListener('click', ()=>{
-    cuadros =Number(prompt("¿De cuantos cuadrados quieres que sea?, El limite es 100"));
-
+    
+    alert ("Cuadricula 32x32");
     const cuadrado17 = document.createElement('div');
     cuadrado17.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
     cuadricula.appendChild(cuadrado17);
+
+    const cuadrado18 = document.createElement('div');
+    cuadrado18.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado18);
+
+    const cuadrado19 = document.createElement('div');
+    cuadrado19.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado19);
+
+    const cuadrado20 = document.createElement('div');
+    cuadrado20.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado20);
+
+    const cuadrado21 = document.createElement('div');
+    cuadrado21.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado21);
+
+    const cuadrado22 = document.createElement('div');
+    cuadrado22.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado22);
+
+    const cuadrado23 = document.createElement('div');
+    cuadrado23.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado23);
+
+    const cuadrado24 = document.createElement('div');
+    cuadrado24.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado24);
+
+    const cuadrado25 = document.createElement('div');
+    cuadrado25.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado25);
+
+    const cuadrado26 = document.createElement('div');
+    cuadrado26.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado26);
+
+    const cuadrado27 = document.createElement('div');
+    cuadrado27.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado27);
+
+    const cuadrado28 = document.createElement('div');
+    cuadrado28.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado28);
+
+    const cuadrado29 = document.createElement('div');
+    cuadrado29.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado29);
+
+    const cuadrado30 = document.createElement('div');
+    cuadrado30.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado30);
+
+    const cuadrado31 = document.createElement('div');
+    cuadrado31.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado31);
+
+    const cuadrado32 = document.createElement('div');
+    cuadrado32.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadricula.appendChild(cuadrado32);
+
 
 
 
