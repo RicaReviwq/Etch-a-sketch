@@ -1,14 +1,15 @@
-body{
+.cabezera{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background: #223;
+    /*background: #223;*/
 }
 
 
 .cuadricula{ 
     width: 616px;
+    height: 616px;
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
+    
 }
