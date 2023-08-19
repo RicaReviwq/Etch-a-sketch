@@ -178,72 +178,106 @@ const boton = document.getElementById("agregar1");
 
 boton.addEventListener('click', ()=>{
     
-    alert ("Cuadricula 32x32");
+    alert ("Cuadricula 36x36");
+//Primera fila
+    cuadrado1.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado2.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado3.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado4.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado5.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado6.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");    
+//Segunda fila    
+    cuadrado7.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado8.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado9.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado10.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado11.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado12.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+//Tercera fila    
+    cuadrado13.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado14.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado15.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadrado16.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     const cuadrado17 = document.createElement('div');
-    cuadrado17.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado17.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado17);
-
     const cuadrado18 = document.createElement('div');
-    cuadrado18.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado18.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado18);
 
+//Cuarta fila    
     const cuadrado19 = document.createElement('div');
-    cuadrado19.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado19.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado19);
 
     const cuadrado20 = document.createElement('div');
-    cuadrado20.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado20.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado20);
 
     const cuadrado21 = document.createElement('div');
-    cuadrado21.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado21.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado21);
 
     const cuadrado22 = document.createElement('div');
-    cuadrado22.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado22.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado22);
 
     const cuadrado23 = document.createElement('div');
-    cuadrado23.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado23.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado23);
 
     const cuadrado24 = document.createElement('div');
-    cuadrado24.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado24.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado24);
 
+//Quinta fila
     const cuadrado25 = document.createElement('div');
-    cuadrado25.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado25.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado25);
 
     const cuadrado26 = document.createElement('div');
-    cuadrado26.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado26.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado26);
 
     const cuadrado27 = document.createElement('div');
-    cuadrado27.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado27.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado27);
 
     const cuadrado28 = document.createElement('div');
-    cuadrado28.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado28.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado28);
 
     const cuadrado29 = document.createElement('div');
-    cuadrado29.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado29.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado29);
 
     const cuadrado30 = document.createElement('div');
-    cuadrado30.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado30.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado30);
 
+//Sexta fila
     const cuadrado31 = document.createElement('div');
-    cuadrado31.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado31.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado31);
 
     const cuadrado32 = document.createElement('div');
-    cuadrado32.setAttribute("style", "width: 150px; height:150px; border:2px solid black");
+    cuadrado32.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado32);
 
+    const cuadrado33 = document.createElement('div');
+    cuadrado33.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadricula.appendChild(cuadrado33);
 
+    const cuadrado34 = document.createElement('div');
+    cuadrado34.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadricula.appendChild(cuadrado34);
 
+    const cuadrado35 = document.createElement('div');
+    cuadrado35.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadricula.appendChild(cuadrado35);
+
+    const cuadrado36 = document.createElement('div');
+    cuadrado36.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
+    cuadricula.appendChild(cuadrado36);
 
 });
