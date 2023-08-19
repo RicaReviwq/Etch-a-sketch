@@ -4,8 +4,17 @@ const cuadricula = document.getElementById("cuadricula");
 
 //CUADRADO1
 const cuadrado1 = document.createElement('div');
-cuadrado1.setAttribute("style", "width: 150px; height:150px; background: green; border:2px solid black;");
+cuadrado1.setAttribute("style", "width: 150px; height:150px; border:2px solid black;");
 cuadricula.appendChild(cuadrado1);
+cuadrado1.addEventListener('mouseover', ()=>{
+    cuadrado1.style.background = "yellow";
+});
+
+cuadrado1.addEventListener('mouseout', ()=>{
+    cuadrado1.style.background = "none";
+})
+
+
 
 //CUADRADO2
 const cuadrado2 = document.createElement('div');
