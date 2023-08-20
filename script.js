@@ -343,7 +343,7 @@ BOTON1.addEventListener('click', ()=>{
     cuadrado33.style.background = "yellow";
     });
 
-    const cuadrado34 = document.createElement('div');
+    var cuadrado34 = document.createElement('div');
     cuadrado34.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado34);
     //Eventos para cambiar el fondo
@@ -351,7 +351,7 @@ BOTON1.addEventListener('click', ()=>{
     cuadrado34.style.background = "yellow";
     });
 
-    const cuadrado35 = document.createElement('div');
+    var cuadrado35 = document.createElement('div');
     cuadrado35.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado35);
     //Eventos para cambiar el fondo
@@ -359,7 +359,7 @@ BOTON1.addEventListener('click', ()=>{
     cuadrado35.style.background = "yellow";
     });
 
-    const cuadrado36 = document.createElement('div');
+    var cuadrado36 = document.createElement('div');
     cuadrado36.setAttribute("style", "width: 98.6px; height: 98.65px; border:2px solid black");
     cuadricula.appendChild(cuadrado36);
     //Eventos para cambiar el fondo
@@ -402,26 +402,34 @@ boton2.addEventListener("click", ()=>{
     cuadrado17.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
     cuadricula.appendChild(cuadrado17);
     
+    
     var cuadrado18 = document.createElement('div');
     cuadrado18.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    
+    cuadricula.appendChild(cuadrado18);
+
     var cuadrado19 = document.createElement('div');
     cuadrado19.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    
+    cuadricula.appendChild(cuadrado19);
+
     var cuadrado20 = document.createElement('div');
     cuadrado20.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
+    cuadricula.appendChild(cuadrado20);
     
     var cuadrado21 = document.createElement('div');
     cuadrado21.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    
+    cuadricula.appendChild(cuadrado21);
+
     var cuadrado22 = document.createElement('div');
     cuadrado22.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    
+    cuadricula.appendChild(cuadrado22);
+
     var cuadrado23 = document.createElement('div');
     cuadrado23.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    
+    cuadricula.appendChild(cuadrado23);
+
     var cuadrado24 = document.createElement('div');
     cuadrado24.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
+    cuadricula.appendChild(cuadrado24);
 
 //CUARTA FILA
 
@@ -589,37 +597,7 @@ boton2.addEventListener("click", ()=>{
     
     var cuadrado64 = document.createElement('div');
     cuadrado64.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    cuadricula.appendChild(cuadrado64);
-
-//NOVENA FILA
-    var cuadrado65 = document.createElement('div');
-    cuadrado65.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    cuadricula.appendChild(cuadrado65);
-    
-    var cuadrado66 = document.createElement('div');
-    cuadrado66.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    cuadricula.appendChild(cuadrado66);
-
-    var cuadrado67 = document.createElement('div');
-    cuadrado67.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    cuadricula.appendChild(cuadrado67);
-
-    var cuadrado68 = document.createElement('div');
-    cuadrado68.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    cuadricula.appendChild(cuadrado68);
-
-    var cuadrado69 = document.createElement('div');
-    cuadrado69.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    cuadricula.appendChild(cuadrado69);
-
-    var cuadrado70 = document.createElement('div');
-    cuadrado70.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    cuadricula.appendChild(cuadrado70);
-
-    var cuadrado71 = document.createElement('div');
-    cuadrado71.setAttribute("style", "width: 73px; height: 73px; border:2px solid black");
-    cuadricula.appendChild(cuadrado71);
-     
+    cuadricula.appendChild(cuadrado64);    
 
 });
 
